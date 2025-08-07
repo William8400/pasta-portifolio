@@ -12,7 +12,13 @@
 
     display: grid;
 
+
+                        /* 1° coluna 2° colunas */
     grid-template-columns: 1fr 4fr;
+
+    /* row column */
+    gap: 0px 100px ; 
+   
 }
 
 #logo{
