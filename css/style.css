@@ -156,3 +156,42 @@
     height: 30px;
     width: 300px;
 }
+
+#cabecalho2{
+    background-color: beige;
+    padding: 70px;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    place-items: center;
+
+}
+
+#sobre{
+    background-color: blue;
+    height: 100px;
+    width: 400px;
+}
+
+#sobre_marlon{
+    background-color: rgb(29, 191, 255);
+    height: 400px;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 0px 10px;
+
+
+}
+
+#foto_atividade{
+    background-color: rgb(218, 6, 6) ;
+    
+}
+
+#texto_atividade{
+    background-color: blue;
+    
+}
