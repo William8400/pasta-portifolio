@@ -108,3 +108,51 @@
 #foto{
     background-color: aquamarine;
 }
+
+#rodape{
+    background-color: black;
+    height: 400px;
+
+    display: grid;
+
+    grid-template-columns: 100%; 
+    place-items: center center;
+}
+
+#marlon{
+    background-color: azure;
+    height: 70px;
+    width: 500px;
+}
+
+#redes_sociais_atividade{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center center;
+    gap: 10px;
+}
+
+#facebook{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+}
+
+#instagram{
+    background-color: rgb(252, 0, 0);
+    height: 30px;
+    width: 30px;
+}
+
+#twiteer{
+    background-color: rgb(255, 239, 17);
+    height: 30px;
+    width: 30px;
+}
+
+#informacoes{
+    background-color: aqua;
+    height: 30px;
+    width: 300px;
+}
