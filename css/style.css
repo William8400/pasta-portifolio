@@ -50,3 +50,21 @@
     
     
 }
+
+#quem_sou{
+    background-color: bisque;
+    height: 400px;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 10px;
+}
+
+#informacoes_texto{
+    background-color: rgb(8, 12, 255);
+}
+
+#foto{
+    background-color: aquamarine;
+}
