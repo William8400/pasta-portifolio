@@ -69,6 +69,7 @@
 
     grid-template-columns: 1fr;
 
+    /* tamanho das linhas em ordem  */
     grid-template-rows: 3fr 1fr 1fr ;
 
     gap: 10px 0px;
@@ -88,7 +89,20 @@
 #redes_sociais_informacoes{
 
     background-color: black;
-    
+    padding: 10px;
+
+    display: grid;
+
+    grid-template-columns: 50px 50px 50px;
+    place-items: center start;
+    gap: 10px;
+}
+
+.redes_sociais{
+    background-color: rgb(250, 138, 1);
+
+    height: 50px;
+    width: 50px;
 }
 
 #foto{
