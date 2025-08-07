@@ -9,4 +9,19 @@
     height: 100px;
 }
 
-#
+#conteudo_principal{
+    background-color: beige;
+    height: 400px;
+
+    display: grid;
+
+   
+}
+
+#teste{
+    background-color: aqua;
+    height: 40%;
+    
+
+
+}
