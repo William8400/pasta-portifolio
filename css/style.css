@@ -195,3 +195,32 @@
     background-color: blue;
     
 }
+
+#cabecalho3{
+    background-color: beige;
+    padding: 70px;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    place-items: center;
+    
+}
+
+#skills{
+    background-color: blue;
+    height: 100px;
+    width: 400px;
+}
+
+#profissional{
+    background-color: blueviolet;
+    height: 100px;
+   
+}
+
+#foto{
+    background-color: brown;
+    height: 100px;
+    
+}
