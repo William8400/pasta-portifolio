@@ -63,6 +63,32 @@
 
 #informacoes_texto{
     background-color: rgb(8, 12, 255);
+    padding: 10px;
+    display: grid;
+    border: 2px solid red;
+
+    grid-template-columns: 1fr;
+
+    grid-template-rows: 3fr 1fr 1fr ;
+
+    gap: 10px 0px;
+}
+
+#titulo_informacoes{
+    background-color: azure;
+    
+}
+
+#botao_informacoes{
+    background-color: red;
+    
+
+}
+
+#redes_sociais_informacoes{
+
+    background-color: black;
+    
 }
 
 #foto{
