@@ -35,11 +35,12 @@
 
     display: grid;
 
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
 
-            /* Align justify */
+            /* Align(vertical) justify(honrizontal) */
 
-    place-items: end end ;
+    place-items: center end ;
+    
 }
 
 #itens_menu{
