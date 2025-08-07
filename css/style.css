@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#cabecalho{
+    background-color: beige;
+    padding: 10px;
+
+    /* Estruturar o leoiaute com Grid */
+
+    display: grid;
+
+    grid-template-columns: 1fr 4fr;
+}
+
+#logo{
+    background-color: black;
+    height: 100px;
+
+
+}
+
+#menu_principal{
+
+    background-color: aqua;
+    height: 100px;
+
+}
