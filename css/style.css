@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -35,6 +37,19 @@
 
 #logo p{
     
+                /* Fonte Família Tipo  */
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+ 
+    font-size: 1.5em; /* rem (Raiz, html) ou em (Pai) */
+
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    
+
 }
 
 #menu_principal{
