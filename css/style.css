@@ -22,10 +22,19 @@
 }
 
 #logo{
-    background-color: black;
+    
+    display: flex; /*  utilizado para alinhar ao centro */
+
+    align-items: center;
+    justify-content: center;
+    
     height: 100px;
 
 
+}
+
+#logo p{
+    
 }
 
 #menu_principal{
@@ -221,6 +230,6 @@
 
 #foto{
     background-color: rgb(229, 34, 255);
-    height: 100px;
+    
     
 }
