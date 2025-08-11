@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playwrite+HU:wght@100..400&display=swap');
+
 
 :root{
 
@@ -10,7 +12,9 @@
     /* Fontes */
     --fonte_logo:  "Playwrite HU", cursive;
 
-    --fonte_tamanho_logo: 1.5em:
+    --fonte_tamanho_logo: 1.5em;
+
+    --fonte_menu_principal: "Libertinus Serif", serif;
 
 }
 
@@ -86,8 +90,12 @@
 
 #menu_principal{
     padding: 0 10px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     height: 100px;
+
+    font-family: var(--fonte_menu_principal);
+    font-weight: 400;
+    font-style: normal; 
 
     display: grid;
 
@@ -114,7 +122,7 @@
 }
 
 #quem_sou{
-    background-color: bisque;
+    background-color: beige;
     padding: 10px;
 
 
@@ -182,7 +190,7 @@
 }
 
 #marlon{
-    background-color: azure;
+    background-color: rgb(225, 228, 228);
     height: 70px;
     width: 500px;
 }
@@ -221,7 +229,7 @@
 
 #cabecalho2{
     background-color: beige;
-    padding: 70px;
+    padding: 50px;
 
     display: grid;
 
@@ -259,8 +267,8 @@
 }
 
 #cabecalho3{
-    background-color: beige;
-    padding: 70px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
 
     display: grid;
 
@@ -282,7 +290,7 @@
 }
 
 #foto{
-    background-color: rgb(229, 34, 255);
+    background-color: rgb(0, 0, 0);
     
     
 }
