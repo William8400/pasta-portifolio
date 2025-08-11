@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
+
 
 
 :root{
 
     /* Cores */
 
-    --cor_primaria: #000000;
+    --cor_primaria: #020202;
 
     /* Fontes */
     --fonte_logo:  "Playwrite HU", cursive;
 
     --fonte_tamanho_logo: 1.5em;
 
-    --fonte_menu_principal: "Libertinus Serif", serif;
+    --fonte_menu_principal:"Playwrite HU", cursive ;
 
 }
 
@@ -26,12 +28,12 @@
 
 #cabecalho{
     /* width style color */
-    border-bottom: 2px solid rgba(0,0,0,.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.993);
 
             /* eixo X eixo Y esfumaçado cor */
     box-shadow: 15px 0px 15px rgba(243, 4, 4, 0.5);
     
-    
+    background-color: black;
     padding: 10px;
 
     /* Estruturar o leoiaute com Grid */
@@ -60,7 +62,8 @@
 }
 
 #logo p{
-    
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
                 /* Fonte Família Tipo  */
     font-family: var(--fonte_logo);
     font-optical-sizing: auto;
@@ -71,7 +74,7 @@
 
     line-height: 30px;
     letter-spacing: 1px;
-    word-spacing: 10px;
+    word-spacing: 1px;
 
     text-align: justify;
 
@@ -99,6 +102,8 @@
     padding: 0 10px;
     background-color: rgb(255, 255, 255);
     height: 100px;
+
+    border-radius: 10px;
 
     font-family: var(--fonte_menu_principal);
     font-weight: 400;
@@ -132,17 +137,16 @@
     
   /* background-color: var(--cor_primaria);*/
   
-  
+  background-color: rgb(255, 255, 255);
   padding: 10px;
-
-
-
+  
+  border-radius: 50px;
 }
 
 #itens_menu li:hover{
-     border-bottom: 3px solid var(--cor_primaria);
+     border-bottom: 4px solid var(--cor_primaria);
      color: var(--cor_primaria);
-     cursor: pointer;
+     cursor:pointer
 }
 
 
@@ -253,7 +257,7 @@
 }
 
 #cabecalho2{
-    background-color: beige;
+    background-color: rgb(0, 0, 0);
     padding: 50px;
 
     display: grid;
@@ -264,10 +268,20 @@
 }
 
 #sobre{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     height: 100px;
     width: 400px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50px;
 }
+
+
+
 
 #sobre_marlon{
     background-color: rgb(29, 191, 255);
@@ -292,7 +306,7 @@
 }
 
 #cabecalho3{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     padding: 50px;
 
     display: grid;
