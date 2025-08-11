@@ -25,6 +25,12 @@
 }
 
 #cabecalho{
+    /* width style color */
+    border-bottom: 2px solid rgba(0,0,0,.1);
+
+            /* eixo X eixo Y esfumaçado cor */
+    box-shadow: 15px 0px 15px rgba(243, 4, 4, 0.5);
+    
     
     padding: 10px;
 
@@ -89,6 +95,7 @@
 }
 
 #menu_principal{
+    
     padding: 0 10px;
     background-color: rgb(255, 255, 255);
     height: 100px;
@@ -99,11 +106,11 @@
 
     display: grid;
 
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
 
             /* Align(vertical) justify(honrizontal) */
 
-    place-items: center end ;
+    place-items: center end;
     
 }
 
@@ -120,6 +127,24 @@
 
 
 }
+
+#itens_menu li{
+    
+  /* background-color: var(--cor_primaria);*/
+  
+  
+  padding: 10px;
+
+
+
+}
+
+#itens_menu li:hover{
+     border-bottom: 3px solid var(--cor_primaria);
+     color: var(--cor_primaria);
+     cursor: pointer;
+}
+
 
 #quem_sou{
     background-color: beige;
