@@ -272,13 +272,15 @@
     height: 100px;
     width: 400px;
 
-    display: flex;
+    display: grid;
 
     justify-content: center;
     align-items: center;
     
     border-radius: 50px;
 }
+
+
 
 
 
@@ -317,16 +319,40 @@
 }
 
 #skills{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     height: 100px;
     width: 400px;
+
+    display: grid;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
 }
 
 #profissional{
     background-color: blueviolet;
-    height: 100px;
+    height: 500px;
+    padding: 10px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 10px;
    
 }
+
+#assunto{
+    background-color: rgb(3, 7, 236);
+    
+}
+
+#foto_profissional{
+    background-color: azure;
+    
+}
+
 
 #foto{
     background-color: rgb(0, 0, 0);
