@@ -85,7 +85,7 @@
 }
 
 #menu_principal{
-
+    padding: 0 10px;
     background-color: aqua;
     height: 100px;
 
@@ -99,12 +99,18 @@
     
 }
 
-#itens_menu{
-    background-color: rgb(4, 40, 241);
-    height: 40px;
-    width: 60%;
-    
-    
+#itens_menu ul{
+    padding: 10px;
+
+    display: flex;
+
+    list-style: none;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: center;
+
+
 }
 
 #quem_sou{
