@@ -184,7 +184,8 @@
     border-radius: 50px;
 
     display: grid;
-
+    justify-content: center;
+    align-items: center;
     grid-template-columns: 50px 50px 50px;
     place-items: center start;
     gap: 10px;
