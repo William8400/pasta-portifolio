@@ -86,15 +86,6 @@
 
     color: var(--cor_primaria);
 
-            
-     
-
-   
-
-    
-
-    
-
 }
 
 #menu_principal{
@@ -151,7 +142,7 @@
 
 
 #quem_sou{
-    background-color: beige;
+    background-color: rgb(16, 127, 255);
     padding: 10px;
 
 
@@ -161,7 +152,7 @@
 }
 
 #informacoes_texto{
-    background-color: rgb(8, 12, 255);
+    background-color: rgb(17, 17, 226);
     padding: 10px;
     display: grid;
     border: 2px solid red;
@@ -176,12 +167,13 @@
 
 #titulo_informacoes{
     background-color: azure;
+    border-radius: 50px;
     
 }
 
 #botao_informacoes{
     background-color: red;
-    
+    border-radius: 50px;
 
 }
 
@@ -189,6 +181,7 @@
 
     background-color: black;
     padding: 10px;
+    border-radius: 50px;
 
     display: grid;
 
@@ -199,6 +192,7 @@
 
 .redes_sociais{
     background-color: rgb(250, 138, 1);
+    border-radius: 50px;
 
     height: 50px;
     width: 50px;
