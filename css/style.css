@@ -33,7 +33,7 @@
             /* eixo X eixo Y esfumaçado cor */
     box-shadow: 15px 0px 15px rgba(243, 4, 4, 0.5);
     
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 10px;
 
     /* Estruturar o leoiaute com Grid */
@@ -145,6 +145,8 @@
     background-color: rgb(16, 127, 255);
     padding: 10px;
 
+    height: 300px;
+
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -179,7 +181,7 @@
 
 #redes_sociais_informacoes{
 
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 10px;
     border-radius: 50px;
 
@@ -201,6 +203,7 @@
 
 #foto{
     background-color: aquamarine;
+    display: none;
     
 }
 
