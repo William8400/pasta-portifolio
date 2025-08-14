@@ -282,9 +282,8 @@
 
 #sobre_marlon{
     background-color: rgb(29, 191, 255);
-    height: 400px;
+    height: 500px;
     padding: 10px;
-
     display: grid;
     grid-template-columns: 1fr 1fr ;
     gap: 0px 10px;
@@ -294,6 +293,7 @@
 
 #foto_atividade{
     background-color: rgb(218, 6, 6) ;
+    
     
 }
 
@@ -340,21 +340,25 @@
 
 #assunto{
     background-color: rgb(3, 7, 236);
+    
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
 }
 
-.html{
-
-}
-
-.css{
-
-}
-
-.javascript{
+#html{
 
 }
 
-.ux{
+#css{
+
+}
+
+#javascript{
+
+}
+
+#ux{
 
 }
 #foto_profissional{
