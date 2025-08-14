@@ -154,7 +154,7 @@
 #informacoes_texto{
     background-color: rgb(17, 17, 226);
     padding: 10px;
-    display: grid;
+    display: none;
     border: 2px solid red;
 
     grid-template-columns: 1fr;
@@ -201,13 +201,14 @@
 
 #foto{
     background-color: aquamarine;
+    
 }
 
 #rodape{
     background-color: black;
     height: 400px;
 
-    display: grid;
+    display: none;
 
     grid-template-columns: 100%; 
     place-items: center center;
@@ -255,7 +256,7 @@
     background-color: rgb(0, 0, 0);
     padding: 50px;
 
-    display: grid;
+    display: none;
 
     grid-template-columns: 1fr;
     place-items: center;
@@ -267,7 +268,7 @@
     height: 100px;
     width: 400px;
 
-    display: grid;
+    display: none;
 
     justify-content: center;
     align-items: center;
@@ -284,7 +285,7 @@
     background-color: rgb(29, 191, 255);
     height: 500px;
     padding: 10px;
-    display: grid;
+    display: none;
     grid-template-columns: 1fr 1fr ;
     gap: 0px 10px;
 
@@ -306,7 +307,7 @@
     background-color: rgb(0, 0, 0);
     padding: 50px;
 
-    display: grid;
+    display: none;
 
     grid-template-columns: 1fr;
     place-items: center;
@@ -318,7 +319,7 @@
     height: 100px;
     width: 400px;
 
-    display: grid;
+    display: none;
 
     justify-content: center;
     align-items: center;
@@ -331,7 +332,7 @@
     height: 500px;
     padding: 10px;
 
-    display: grid;
+    display: none;
 
     grid-template-columns: 1fr 1fr;
     gap: 0px 10px;
