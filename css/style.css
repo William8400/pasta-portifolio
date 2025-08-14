@@ -142,16 +142,17 @@
 
         /* Pseudoclasse */
 #quem_sou:hover{
-   background: radial-gradient(var(--cor_primaria) , blue);
+   background: radial-gradient(var(--cor_primaria) , rgb(254, 254, 255));
    
 }
 
 
 #quem_sou{
     
-    transition: 2s;
+    /* transition: 2s; */
     
-    /*background-image: url('/midias/img/william.jpg');
+    /*
+    background-image: url('/midias/img/william.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -164,14 +165,14 @@
 
     /* plano de fundo com gradient radial - (cor cor cor )  */
 
-    background: radial-gradient(blue ,var(--cor_primaria));
+    background: radial-gradient(rgb(255, 255, 255) ,var(--cor_primaria));
     background-attachment: fixed;
     
     
     padding: 10px;
+   
 
-    height: 100vh;
-
+    justify-content: center ;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -179,36 +180,60 @@
 }
 
 #informacoes_texto{
-    background-color: rgb(17, 17, 226);
+    
     padding: 10px;
-    display: none;
-    border: 2px solid red;
+    display:grid;
+    
 
-    grid-template-columns: 1fr;
+    grid-template-columns: 0.5fr;
 
     /* tamanho das linhas em ordem  */
     grid-template-rows: 3fr 1fr 1fr ;
 
     gap: 10px 0px;
-}
-
-#titulo_informacoes{
-    background-color: azure;
-    border-radius: 50px;
-    
+    background-color: blue;
+    justify-items: center center;
 }
 
 #botao_informacoes{
-    background-color: red;
-    border-radius: 50px;
+    justify-self: start;
+}
 
+#titulo_informacoes{
+    
+    font-family: var(--fonte_menu_principal);
+    color: azure;
+    font-size: 2rem;
+
+    justify-items: center;
+    
+}
+
+#botao_informacoes button{
+    
+        padding: 10px;
+        border: none;
+        background-color: rgb(0, 0, 0);
+        font-size: 2rem;
+        font-weight: bold;
+        color: white ;
+        border-radius: 5px;
+        box-shadow: rgb(0,0,0.5);
+
+        
+
+
+}
+
+#botao_informacoes button:hover{
+    background-color: gray;
+    cursor: pointer;
 }
 
 #redes_sociais_informacoes{
 
-    background-color: rgb(0, 0, 0);
+    
     padding: 10px;
-    border-radius: 50px;
 
     display: grid;
     justify-content: center;
@@ -219,16 +244,13 @@
 }
 
 .redes_sociais{
-    background-color: rgb(250, 138, 1);
-    border-radius: 50px;
 
     height: 50px;
     width: 50px;
 }
 
 #foto{
-    background-color: aquamarine;
-    display: none;
+    
     
 }
 
