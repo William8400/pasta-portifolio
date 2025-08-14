@@ -9,7 +9,7 @@
 
     /* Cores */
 
-    --cor_primaria: #020202;
+    --cor_primaria: #000000;
 
     /* Fontes */
     --fonte_logo:  "Playwrite HU", cursive;
@@ -140,12 +140,37 @@
      cursor:pointer
 }
 
+        /* Pseudoclasse */
+#quem_sou:hover{
+   background: radial-gradient(var(--cor_primaria) , blue);
+   
+}
+
 
 #quem_sou{
-    background-color: rgb(16, 127, 255);
+    
+    transition: 2s;
+    
+    /*background-image: url('/midias/img/william.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    Efeito parallax - imagem parada na rolagem 
+
+
+    Plano de fundo com gradiente linear - (ângulo , cor , cor)
+    background: linear-gradient(50deg, blue, var(--cor_primaria));*/
+
+    /* plano de fundo com gradient radial - (cor cor cor )  */
+
+    background: radial-gradient(blue ,var(--cor_primaria));
+    background-attachment: fixed;
+    
+    
     padding: 10px;
 
-    height: 300px;
+    height: 100vh;
 
 
     display: grid;
