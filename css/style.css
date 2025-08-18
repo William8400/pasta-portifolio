@@ -136,10 +136,10 @@
 }
 
         /* Pseudoclasse */
-#quem_sou:hover{
+/* #quem_sou:hover{ 
    background: radial-gradient(var(--cor_primaria) , rgb(254, 254, 255));
    
-}
+} */
 
 
 #quem_sou{
@@ -160,7 +160,7 @@
 
     /* plano de fundo com gradient radial - (cor cor cor )  */
 
-    background: radial-gradient(rgb(255, 255, 255) ,var(--cor_primaria));
+    /* background: radial-gradient(rgb(255, 255, 255) ,var(--cor_primaria)); */
     background-attachment: fixed;
     
     
@@ -195,7 +195,7 @@
 #titulo_informacoes{
     
     font-family: var(--fonte_menu_principal);
-    color: azure;
+    color: rgb(0, 0, 0);
     font-size: 2rem;
 
     justify-items: center;
@@ -410,7 +410,6 @@
     #menu_principal{
         place-items: center center;
     }
-
 } 
 
 
