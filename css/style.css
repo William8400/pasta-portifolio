@@ -138,24 +138,7 @@
 } */
 
 #quem_sou.desktop{
-    
-    /* transition: 2s; */
-    
-    /*
-    background-image: url('/midias/img/william.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    Efeito parallax - imagem parada na rolagem 
-
-
-    Plano de fundo com gradiente linear - (ângulo , cor , cor)
-    background: linear-gradient(50deg, blue, var(--cor_primaria));*/
-
-    /* plano de fundo com gradient radial - (cor cor cor )  */
-
-    /* background: radial-gradient(rgb(255, 255, 255) ,var(--cor_primaria)); */
+   
     background-attachment: fixed;
     
     
@@ -170,23 +153,6 @@
 }
 #quem_sou.mobile{
     
-    /* transition: 2s; */
-    
-    /*
-    background-image: url('/midias/img/william.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    Efeito parallax - imagem parada na rolagem 
-
-
-    Plano de fundo com gradiente linear - (ângulo , cor , cor)
-    background: linear-gradient(50deg, blue, var(--cor_primaria));*/
-
-    /* plano de fundo com gradient radial - (cor cor cor )  */
-
-    /* background: radial-gradient(rgb(255, 255, 255) ,var(--cor_primaria)); */
     background-attachment: fixed;
     
     
@@ -200,9 +166,6 @@
     grid-template-columns: 1fr;
     gap: 0px 10px;
 }
-
-
-
 
 #informacoes_texto{
     
