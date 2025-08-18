@@ -27,21 +27,17 @@
 }
 
 #cabecalho{
-    /* width style color */
     border-bottom: 2px solid rgba(255, 255, 255, 0.993);
 
-            /* eixo X eixo Y esfumaçado cor */
-    /* box-shadow: 15px 0px 15px rgba(0, 0, 0, 0.5); */
-    
     background-color: rgb(0, 0, 0);
     padding: 10px;
 
-    /* Estruturar o leoiaute com Grid */
+    
 
     display: grid;
 
 
-                        /* 1° coluna 2° colunas */
+    /* 1° coluna 2° colunas */
     grid-template-columns: 1fr 4fr;
 
     /* row column */
@@ -141,8 +137,7 @@
    
 } */
 
-
-#quem_sou{
+#quem_sou.desktop{
     
     /* transition: 2s; */
     
@@ -173,6 +168,41 @@
     grid-template-columns: 1fr 1fr;
     gap: 0px 10px;
 }
+#quem_sou.mobile{
+    
+    /* transition: 2s; */
+    
+    /*
+    background-image: url('/midias/img/william.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    Efeito parallax - imagem parada na rolagem 
+
+
+    Plano de fundo com gradiente linear - (ângulo , cor , cor)
+    background: linear-gradient(50deg, blue, var(--cor_primaria));*/
+
+    /* plano de fundo com gradient radial - (cor cor cor )  */
+
+    /* background: radial-gradient(rgb(255, 255, 255) ,var(--cor_primaria)); */
+    background-attachment: fixed;
+    
+    
+    padding: 10px;
+   
+    display: none;
+    
+    justify-items: start;
+
+    
+    grid-template-columns: 1fr;
+    gap: 0px 10px;
+}
+
+
+
 
 #informacoes_texto{
     
@@ -394,7 +424,7 @@
 
 /* Adaptação para mobile */
 
-@media (max-width: 600px){
+@media (max-width: 800px){
 
     #cabecalho{
         
@@ -410,6 +440,18 @@
     #menu_principal{
         place-items: center center;
     }
+
+    #quem_sou.desktop{
+         display: none;
+    }
+
+    #quem_sou.mobile{
+
+        display: grid;
+    }
+
+
+
 } 
 
 
