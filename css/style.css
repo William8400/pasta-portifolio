@@ -189,13 +189,11 @@
     justify-self: start;
 }
 
-#titulo_informacoes {
+#titulo_informacoes h1{
 
     font-family: var(--fonte_menu_principal);
     color: rgb(0, 0, 0);
-    font-size: 2rem;
-
-    justify-items: center;
+    font-size: 4em;
 }
 
 #botao_informacoes button {
