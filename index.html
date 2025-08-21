@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
     <title> Pagina Inicial </title>
@@ -21,7 +23,7 @@
 
         </div>
 
-        <nav id="menu_principal">
+        <nav id="menu_principal" class="desktop">
 
             <div id="itens_menu">
 
@@ -37,6 +39,24 @@
             </div>
         </nav>
 
+        <nav class="mobile">
+
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    ...
+                </div>
+            </div>
+
+        </nav>
+
     </header>
 
     <section id="quem_sou" class="desktop">
@@ -46,7 +66,7 @@
 
             <div id="titulo_informacoes">
 
-                <h1>Olá, <br> Eu sou William <br>  Desenvolvedor Full Stack </h1>
+                <h1>Olá, <br> Eu sou William <br> Desenvolvedor Full Stack </h1>
 
             </div>
 
@@ -65,7 +85,7 @@
 
                     <img src="midias/img/redes_sociais/linkdin.png" width="32px" alt="">
                 </figure>
-                
+
                 <figure id="linkedin_informacoes" class="redes_sociais">
 
                     <img src="midias/img/redes_sociais/tiktok.jpg" width="32px" alt="">
@@ -87,7 +107,7 @@
         <div id="foto">
 
             <figure>
-                <img  src="midias/img/william.jpg"  alt="Foto do William">
+                <img src="midias/img/william.jpg" alt="Foto do William">
                 <figcaption hidden>profissional em Full Stack</figcaption>
             </figure>
 
@@ -107,14 +127,14 @@
 
     </section>
 
-     <section id="quem_sou" class="mobile">
+    <section id="quem_sou" class="mobile">
 
         <div id="informacoes_texto">
 
 
             <div id="titulo_informacoes">
 
-                <h1>Olá, <br> Eu sou William <br>  Desenvolvedor Full Stack </h1>
+                <h1>Olá, <br> Eu sou William <br> Desenvolvedor Full Stack </h1>
 
             </div>
 
@@ -133,7 +153,7 @@
 
                     <img src="midias/img/redes_sociais/linkdin.png" width="32px" alt="">
                 </figure>
-                
+
                 <figure id="linkedin_informacoes" class="redes_sociais">
 
                     <img src="midias/img/redes_sociais/tiktok.jpg" width="32px" alt="">
@@ -155,7 +175,7 @@
         <div id="foto">
 
             <figure>
-                <img  src="midias/img/william.jpg" width="100%" alt="Foto do William">
+                <img src="midias/img/william.jpg" width="100%" alt="Foto do William">
                 <figcaption hidden>profissional em Full Stack</figcaption>
             </figure>
 
@@ -235,6 +255,10 @@
 
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
 
 </body>
 
