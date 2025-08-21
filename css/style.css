@@ -384,24 +384,25 @@
     background-color: azure;
 }
 
+
+.mobile{
+    display: none;
+}
+
 /* Adaptação para mobile */
 
 @media (max-width: 800px){
 
-    #cabecalho{
-        
-        grid-template-columns: 1fr;
-    }
-
-    #itens_menu ul{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
     #menu_principal{
-        place-items: center center;
+        display: none;
     }
+
+    .mobile{
+        display: block;
+    }
+
+    /* Formato de interruptor */
+
 
     #quem_sou.desktop{
          display: none;
@@ -412,11 +413,4 @@
         display: grid;
     }
 
-
-
-} 
-
-
-
-
-
+}
